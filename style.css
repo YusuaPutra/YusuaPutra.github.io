@@ -3,7 +3,7 @@
     background-color: #e2edff;
 }
 
-#projects{
+#study{
     background-color: #e2edff;
 }
 
@@ -15,10 +15,29 @@ footer > p > a{
     text-decoration: none;
 }
 
-.gallery-img{
+.skill-img{
     width: 100%;
 }
 
-#gallery .row > *{
+#skill .row > *{
     padding: 0;
+}
+
+.card-img-top {
+    height: 100px; /* kecilkan gambar */
+    object-fit: contain; /* biar gambar tidak terpotong */
+}
+  
+.card-body {
+    padding: 30px; /* kecilkan padding isi kartu */
+}
+  
+.card-text {
+    margin-bottom: 15px; /* spasi antar teks diperkecil */
+}
+
+.skill-icon {
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
 }
